@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgba(98, 0, 255, 0.438);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px ;
+}
+
+.logo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+
+.photo {
+    padding: 100px 100px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(rgba(0,0,0,.3),rgb(0,0,0,.3)), url(images/electronic.jpg);
+    background-attachment: fixed;
+
+}
+
+.main{
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: 900;
+    padding: 10px;
+    
+}
+.main span{
+    color: rgb(50, 0, 230);
+    font-size: 3.5em;
+    font-weight: 900;  
+}
+
+.navigation a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.navigation a:hover{
+    color: rgb(47, 0, 255);
+}
+
+.box{
+    color: rgb(47, 0, 255);
+    background-color: rgb(32, 32, 32);
+    font-size: 1.5em;
+    width: 6em;
+    border:none;
+    padding: 10px 5px;
+    letter-spacing: 1px;
+    border-radius: 60px;
+    transition: 0.2s ease;
+    outline: none;
+}
+
+
+
+.box:focus{
+    border:solid rgb(76, 0, 216);
+    width: 13em;
+    border-radius: 60px;
+}
+
+.dow{
+    color: rgb(83, 83, 83);
+    background-color: rgb(32, 32, 32);
+    font-size: 1.5em;
+    width: 2.9em;
+    height: 2em;
+    cursor: pointer;
+    padding: 10px 5px;
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 60px;
+    transition: 0.1s ease;
+}
+
+.dow:hover{
+    color: aliceblue;
+    background-color: rgb(76, 0, 216);
+    transform: scale(1.1);
+}
+
+.dow:active{
+    color: rgb(76, 0, 216);
+    background-color: rgb(32, 32, 32);
+    border: 2px solid rgb(76, 0, 216);
+}
+
+
+.cards{
+    padding: 40px;
+    background: url(images/photo6.jpg);
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.laun{
+    background: none;
+    cursor: pointer;
+    border: none;
+    margin-right: 1cm;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: 900;
+    outline: none;
+}
+
+.laun:hover{
+    color: rgb(47, 0, 255);
+}
+
+.ar{
+    background-color: rgb(32, 32, 32);
+    color: rgb(47, 0, 255);
+}
+
+.en{
+    background-color: rgb(32, 32, 32);
+    color: rgb(47, 0, 255);
+}
+
+
+.shof {
+    color: red;
+    background-color: rgb(32, 32, 32);
+    border: none;
+    border-radius: 50px;
+    border: 2px solid red;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 50px;
+    transition: 0.2s ease ;
+}
+
+
+.shof:active{
+    background-color: red;
+    color: white;
+}
+
+@media (max-width: 992px) {
+    header{
+        padding: 40px 10px;
+    }
+
+    .logo{
+        font-size: 3em;
+    }
+
+    .laun{
+        font-size: 2em;
+    }
+
+    .navigation a{
+        font-size: 2em;
+        font-weight: 900;
+    }
+
+    .photo {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background: url(images/elephone.jpg) no-repeat;
+        background-attachment: fixed;
+    }
+    
+    .main{
+        font-size: 3em;
+    }
+    
+    .box:focus{
+        width: 7em;
+    }
+    
+    .shof{
+        padding: 10px 30px;
+    }
+
+    .cards {
+        font-size: 2em;
+        padding: 60px 0px;
+    }
+}
+
+
+
+
