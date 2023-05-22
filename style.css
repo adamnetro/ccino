@@ -111,9 +111,9 @@ header {
     color: rgb(47, 0, 255);
     background-color: rgb(32, 32, 32);
     font-size: 1.5em;
-    width: 6em;
+    width: 10em;
     border:none;
-    padding: 10px 5px;
+    padding: 10px 20px;
     letter-spacing: 1px;
     border-radius: 60px;
     transition: 0.2s ease;
@@ -124,7 +124,7 @@ header {
 
 .box:focus{
     border:solid rgb(76, 0, 216);
-    width: 13em;
+    width: 15em;
     border-radius: 60px;
 }
 
