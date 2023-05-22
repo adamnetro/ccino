@@ -14,13 +14,23 @@ function sendURL(URL) {
   window.location.href = `https://gg--adamnetro.repl.co/download?URL=${URL}`;
   }
 }
+let mess = document.querySelector('.mess');
+let messText = document.querySelector('.mess .txt');
 
 Btn.addEventListener('click', () => {
   if (!URLinput.value) {
-    alert("كضحك عليا و دخل رابط");
+    mess.classList.add('messActive');
+    messText.innerText = "You have to enter the link in the box";
+    setTimeout( function() {
+      mess.classList.remove('messActive')
+    },3000)
   }
   if (!URLinput.value.match(fondUrl) && URLinput.value) {
-    alert("و صاحبي هذا راح مشي رابط ديال يويتيوب");
+    mess.classList.add('messActive');
+    messText.innerText = "This URL is not for YouTube";
+    setTimeout( function() {
+      mess.classList.remove('messActive')
+    },3000)
   }
 });
 
