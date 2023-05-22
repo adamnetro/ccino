@@ -11,7 +11,7 @@ Btn.addEventListener('click', function() {
 
 function sendURL(URL) {
   if (URLinput.value){
-  window.location.href = `http://localhost:4000/download?URL=${URL}`;
+  window.location.href = `https://gg--adamnetro.repl.co/download?URL=${URL}`;
   }
 }
 
