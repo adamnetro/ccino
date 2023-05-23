@@ -1,104 +1,349 @@
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Jost&family=Poppins:ital,wght@1,500&family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
 
 *{
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0%;
-    font-weight: 900;
     padding: 0%;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-body{
-    display: grid;
-    height: 70vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: rgb(32, 32, 32);
 }
 
-.title-bar{
-    background-color: red;
-    top: 0;
-    width: 100%;
-    padding: 0px 10px 0px 0px;
-    text-align: end;
+::-webkit-scrollbar-thumb{
+    background-color: rgb(76, 0, 216);
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(96, 11, 255);
+}
+
+
+.mess{
     position: fixed;
-    display: none;
-}
-
-
-.title-bar button{
-    background: none;
-    padding: 0px 10px;
-    border: none;
-    color: white;
-    font-size: 1em;
-    cursor: pointer;
-}
-
-.title-bar button:active{
-    background-color: rgb(214, 63, 63);
-}
-
-h1{
-    font-size: 3em;
-    text-align: center;
-}
-
-form{
-    display: flex;
-}
-
-h1 span{
+    z-index: 2;
+    background-color: rgb(32, 32, 32);
     color: red;
-}
-
-.itm{
-    display: grid;
-}
-
-input{
-    background-color: rgb(238, 238, 238);
-    font-size: 2.5em;
-    padding: 0px 10px;
-    width: 70vh;
-    border: none;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212), inset 5px 5px 5px rgba(255, 255, 255, 0.363);
-    outline: none;
+    padding: 5px 25px;
+    display: flex;
+    justify-content: space-between;
     border-radius: 15px;
-}
-
-a{
-    background-color: red;
-    color: white;
-    text-align: center;
-    padding: 5px 0px;
-    width: 5em;
-    cursor: pointer;
-    border: none;
-    font-size: 2em;
-    border-radius: 15px;
-    margin-left: 10px;
-    user-select: none;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212), inset 5px 5px 5px rgba(255, 255, 255, 0.363);
-}
-
-a:active{
-    transform: scale(0.90);
+    border: 2px solid red;
+    top: 10%;
+    left: -70%;
+    transform: skewX(-25deg);
+    overflow: hidden;
     transition: 0.1s ease;
 }
 
 
-textarea{
-    resize: none;
-    margin-top: 15%;
+.mess a{
     font-size: 2em;
-    height: 20vh;
+    transform: skewX(25deg);
+}
+
+.messActive{
+    left: 5%;
+}
+
+
+
+header {
+    background-color: rgba(98, 0, 255, 0.438);
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px ;
+}
+
+.logo{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+
+.photo {
+    padding: 100px 100px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:linear-gradient(rgba(0,0,0,.3),rgb(0,0,0,.3)), url(images/electronic.jpg);
+    background-attachment: fixed;
+
+}
+
+.main{
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: 900;
     padding: 10px;
-    border: none;
-    border-radius: 15px;
-    background-color: #EAFAF1;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.212), inset 5px 5px 5px rgba(255, 255, 255, 0.363);
+    
+}
+.main span{
+    color: rgb(50, 0, 230);
+    font-size: 3.5em;
+    font-weight: 900;  
+}
+
+.navigation a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.navigation a:hover{
+    color: rgb(47, 0, 255);
+}
+
+.box{
+    color: white;
+    background-color: rgb(32, 32, 32);
+    border:2px solid rgb(76, 0, 216);
+    font-size: 1.5em;
+    width: 10em;
+    border:none;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+    border-radius: 60px;
+    transition: 0.2s ease;
     outline: none;
 }
+
+
+
+.box:focus{
+    border:2px solid rgb(76, 0, 216);
+    width: 15em;
+    border-radius: 60px;
+}
+
+.dow{
+    color: rgb(83, 83, 83);
+    background-color: rgb(32, 32, 32);
+    font-size: 1.5em;
+    width: 2.9em;
+    height: 2em;
+    cursor: pointer;
+    padding: 10px 5px;
+    border: none;
+    letter-spacing: 1px;
+    border-radius: 60px;
+    transition: 0.1s ease;
+}
+
+.dow:hover{
+    color: aliceblue;
+    background-color: rgb(76, 0, 216);
+    transform: scale(1.1);
+}
+
+.dow:active{
+    color: rgb(76, 0, 216);
+    background-color: rgb(32, 32, 32);
+    border: 2px solid rgb(76, 0, 216);
+}
+
+
+.cards{
+    padding: 40px;
+    background: url(images/photo6.jpg);
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.laun{
+    background: none;
+    cursor: pointer;
+    border: none;
+    margin-right: 1cm;
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: 900;
+    outline: none;
+}
+
+.laun:hover{
+    color: rgb(47, 0, 255);
+}
+
+.ar{
+    background-color: rgb(32, 32, 32);
+    color: rgb(47, 0, 255);
+}
+
+.en{
+    background-color: rgb(32, 32, 32);
+    color: rgb(47, 0, 255);
+}
+
+
+.shof {
+    color: red;
+    background-color: rgb(32, 32, 32);
+    border: none;
+    border-radius: 50px;
+    border: 2px solid red;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 50px;
+    transition: 0.2s ease ;
+}
+
+
+.shof:active{
+    background-color: red;
+    color: white;
+}
+
+.itm-add-nmfile{
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+    display: none;
+}
+.itm-add-nmfile form{
+    background-color: rgb(32, 32, 32);
+    border-radius: 15px;
+    padding: 20px;
+}
+.itm-add-nmfile form h1{
+    color: white;
+    font-size: 3em;
+    text-align: end;
+}
+
+.itm-add-nmfile form input{
+    font-size: 2em;
+    background: none;
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgb(76, 0, 216);
+    outline: none;
+    margin-top: 5%;
+}
+
+.itm-add-nmfile form a{
+    font-size: 2em;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(76, 0, 216);
+    border: none;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+
+@media (max-width: 992px) {
+    header{
+        padding: 40px 10px;
+    }
+
+    .mess{
+        top: 12%;
+        left: -90%;
+    }
+    .messActive{
+        left: 10%;
+    }
+
+    .mess a{
+        font-size: 2.7em;
+    }
+
+    .logo{
+        font-size: 3em;
+        margin-left: 2em;
+    }
+
+    .laun{
+        font-size: 2em;
+    }
+
+    .navigation a{
+        font-size: 2em;
+        font-weight: 900;
+        margin-right: 1em;
+    }
+
+    .photo {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background:linear-gradient(rgba(0,0,0,.5),rgb(0,0,0,.5)), url(images/elephone.jpg);
+        background-attachment: fixed;
+    }
+    
+    .main{
+        font-size: 2.9em;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .main h2 span{
+        font-size: 1.5em;
+    }
+    
+    .box{
+        width: 100%;
+        border: 2px solid rgb(32, 32, 32);
+        transition: 0s;
+    }
+    .box:focus{
+        width: 100%;
+        border:2px solid rgb(76, 0, 216);
+    }
+
+    .dow{
+        margin-top: 20px;
+        transition: 0s;
+        width: 100%;
+        color: rgb(76, 0, 216);
+        background-color: rgb(32, 32, 32);
+        border: 2px solid rgb(76, 0, 216);
+    }
+
+
+    .dow:hover{
+        transform: none;
+        color: rgb(76, 0, 216);
+        background-color: rgb(32, 32, 32);
+        border: 2px solid rgb(76, 0, 216);
+    }
+
+    .dow:active{
+        background-color: rgb(76, 0, 216);
+        color: white;
+    }
+    
+    .shof{
+        padding: 10px 30px;
+    }
+
+    .cards {
+        font-size: 1.2em;
+        padding: 60px 0px;
+    }
+}
+
+
+
+
