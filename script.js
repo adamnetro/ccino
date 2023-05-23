@@ -1,7 +1,7 @@
 const Btn = document.querySelector('.dow');
 const URLinput = document.querySelector('.box');
 
-const fondUrl = /https:\/\/(www\.)youtube\.com\//;
+const fondUrl = /https:\/\/(www\.|m\.)youtube\.com\/|https:\/\/youtu\.be\//;
 
 Btn.addEventListener('click', function() {
   if (URLinput.value.match(fondUrl)) {
