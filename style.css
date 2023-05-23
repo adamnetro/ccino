@@ -143,6 +143,7 @@ header {
     letter-spacing: 1px;
     border-radius: 60px;
     transition: 0.1s ease;
+    user-select: none;
 }
 
 .dow:hover{
