@@ -109,7 +109,7 @@ header {
 
 .box{
     color: rgb(47, 0, 255);
-    background-color: rgb(32, 32, 32);
+    background-color: white;
     font-size: 1.5em;
     width: 10em;
     border:none;
