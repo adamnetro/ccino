@@ -11,7 +11,7 @@ Btn.addEventListener('click', function() {
 
 function sendURL(URL) {
   if (URLinput.value){
-  window.location.href = `https://netrotest.adamnetro.repl.co/download?URL=${URL}`;
+  window.location.href = `https://apple-concise-sofa.glitch.me/download?URL=${URL}`;
   }
 }
 let mess = document.querySelector('.mess');
