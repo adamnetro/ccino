@@ -18,10 +18,10 @@ let messText = document.querySelector('.mess .txt');
 
 function sendURL(URL) {
   if (URLinput.value && STT === false){
-  window.location.href = `http://localhost:4000/download?URL=${URL}`;
+  window.location.href = `https://apple-concise-sofa.glitch.me/download?URL=${URL}`;
   }
   if (URLinput.value && STT === true){
-    window.location.href = `http://localhost:3000/download?URL=${URL}`;
+    window.location.href = `https://imaginary-aquamarine-meteorology.glitch.me/download?URL=${URL}`;
     }
 }
 
