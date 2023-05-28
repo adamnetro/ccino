@@ -8,6 +8,11 @@
     scroll-behavior: smooth;
 }
 
+::selection{
+    background-color: rgba(107, 27, 255, 0.575);
+    color: rgb(224, 224, 224);
+}
+
 ::-webkit-scrollbar{
     width: 10px;
     background-color: rgb(32, 32, 32);
