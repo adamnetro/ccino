@@ -359,7 +359,8 @@ header {
     }
 
     .type-file .ST-file{
-        width: 50vh;
+        width: 45vh;
+        height: 50vh;
         border-radius: 30px;
         margin-left: 0;
         margin-top: 20px;
