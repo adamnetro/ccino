@@ -1,6 +1,7 @@
 const Btn = document.querySelector('.dow');
 const URLinput = document.querySelector('.box');
 
+
 const fondUrl = /https:\/\/(www\.|m\.)youtube\.com\/|https:\/\/youtu\.be\//;
 
 Btn.addEventListener('click', function() {
@@ -10,18 +11,13 @@ Btn.addEventListener('click', function() {
 });
 
 
-let boxFileName = document.querySelector('.itm-add-nmfile')
-let boxFileNameBTN = document.querySelector('.itm-add-nmfile form a')
-let boxFileNameBOX = document.querySelector('.itm-add-nmfile form input')
-let mess = document.querySelector('.mess');
-let messText = document.querySelector('.mess .txt');
 
 function sendURL(URL) {
   if (URLinput.value && STT === false){
-  window.location.href = `https://apple-concise-sofa.glitch.me/download?URL=${URL}`;
+  window.location.href = `http://localhost:4000/download/${InpAD.value}?URL=${URL}`;
   }
   if (URLinput.value && STT === true){
-    window.location.href = `https://imaginary-aquamarine-meteorology.glitch.me/download?URL=${URL}`;
+    window.location.href = `http://localhost:3000/download/${InpVD.value}?URL=${URL}`;
     }
 }
 
@@ -83,8 +79,13 @@ BtnAD.addEventListener('click', () => {
 }
 })
 
+const InpVD = document.querySelector('.ST-video input');
+const InpAD = document.querySelector('.ST-audio input');
+
 window.onload = function() {
   BtnVD.click()
+  InpVD.value = "video"
+  InpAD.value = "audio"
 }
 
 
@@ -103,4 +104,5 @@ clsST.addEventListener('click', () => {
   openST.style.display = "block"
   clsST.style.display = "none"
 })
+
 

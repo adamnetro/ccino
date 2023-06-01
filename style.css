@@ -63,7 +63,7 @@
     width: 100%;
     height: 100vh;
     backdrop-filter: blur(8px);
-    display: none;
+    display: flex;
 }
 
 
@@ -102,18 +102,47 @@ hr{
     user-select: none;
 }
 
+.type-file aside a:hover{
+    background-color: rgba(32, 32, 32);
+    border-radius: 7px;
+}
+
 .ST-file{
-    color: rgb(87, 87, 87);
     background-color: rgb(20, 20, 20);
     margin-left: 10px;
     border-radius: 15px;
     padding: 10px;
-    text-align: center;
     width: 70vh;
     height: 70vh;
 }
+
+.ST-file h1{
+    color: white;
+    font-size: 2em;
+    font-weight: 200;
+}
+
+.ST-file input{
+    color: rgb(89, 0, 255);
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgb(76, 0, 216);
+    outline: none;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.ST-video {
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+    border-radius: 15px;
+}
+
 .ST-audio{
     display: none;
+    background-color: rgb(32, 32, 32);
+    padding: 10px;
+    border-radius: 15px;
 }
 
 
@@ -280,45 +309,6 @@ header {
     color: white;
 }
 
-.itm-add-nmfile{
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    backdrop-filter: blur(8px);
-    display: none;
-}
-.itm-add-nmfile form{
-    background-color: rgb(32, 32, 32);
-    border-radius: 15px;
-    padding: 20px;
-}
-.itm-add-nmfile form h1{
-    color: white;
-    font-size: 3em;
-    text-align: end;
-}
-
-.itm-add-nmfile form input{
-    font-size: 2em;
-    background: none;
-    color: white;
-    border: none;
-    border-bottom: 2px solid rgb(76, 0, 216);
-    outline: none;
-    margin-top: 5%;
-}
-
-.itm-add-nmfile form a{
-    font-size: 2em;
-    cursor: pointer;
-    color: white;
-    background-color: rgb(76, 0, 216);
-    border: none;
-    border-radius: 7px;
-    padding: 5px 10px;
-}
 
 @media (max-width: 992px) {
     header{
