@@ -14,15 +14,15 @@ Btn.addEventListener('click', function() {
 
 function sendURL(URL) {
   if (URLinput.value && STT === false){
-  window.location.href = `https://apple-concise-sofa.glitch.me/download/${InpAD.value}?URL=${URL}`;
+  window.location.href = `http://localhost:4000/download/${InpAD.value}?URL=${URL}`;
   }
   if (URLinput.value && STT === true){
-    window.location.href = `https://imaginary-aquamarine-meteorology.glitch.me/download/${InpVD.value}?URL=${URL}`;
+    window.location.href = `http://localhost:3000/download/${InpVD.value}?URL=${URL}`;
     }
 }
 
-
-
+let mess = document.querySelector('.mess');
+let messText = document.querySelector('.mess .txt');
 
 Btn.addEventListener('click', () => {
   if (!URLinput.value) {
@@ -40,8 +40,6 @@ Btn.addEventListener('click', () => {
     },3000)
   }
 });
-
-
 
 const BtnTPFL = document.querySelectorAll('.type-file aside a')
 var DFstyle;
@@ -104,5 +102,3 @@ clsST.addEventListener('click', () => {
   openST.style.display = "block"
   clsST.style.display = "none"
 })
-
-
