@@ -14,10 +14,10 @@ Btn.addEventListener('click', function() {
 
 function sendURL(URL) {
   if (URLinput.value && STT === false){
-  window.location.href = `http://localhost:4000/download/${InpAD.value}?URL=${URL}`;
+  window.location.href = `https://apple-concise-sofa.glitch.me/${InpAD.value}?URL=${URL}`;
   }
   if (URLinput.value && STT === true){
-    window.location.href = `http://localhost:3000/download/${InpVD.value}?URL=${URL}`;
+    window.location.href = `https://imaginary-aquamarine-meteorology.glitch.me/${InpVD.value}?URL=${URL}`;
     }
 }
 
