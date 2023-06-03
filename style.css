@@ -201,6 +201,9 @@ header {
     font-size: 2em;
 }
 
+.navigation a:hover{
+    color: rgb(136, 72, 255);
+}
 
 .navigation .clsST{
     display: none;
