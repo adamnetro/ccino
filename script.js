@@ -1,1 +1,155 @@
-const _0x1114b9=_0x17bf;(function(_0x3ab849,_0x2ee4ad){const _0x487bc3=_0x17bf,_0x1e5cd5=_0x3ab849();while(!![]){try{const _0x296f8a=parseInt(_0x487bc3(0x1ee))/0x1*(parseInt(_0x487bc3(0x1fe))/0x2)+parseInt(_0x487bc3(0x1dd))/0x3+parseInt(_0x487bc3(0x1db))/0x4+parseInt(_0x487bc3(0x1f9))/0x5*(parseInt(_0x487bc3(0x1e4))/0x6)+parseInt(_0x487bc3(0x1e8))/0x7+-parseInt(_0x487bc3(0x1f1))/0x8*(-parseInt(_0x487bc3(0x1fa))/0x9)+parseInt(_0x487bc3(0x203))/0xa*(-parseInt(_0x487bc3(0x1d4))/0xb);if(_0x296f8a===_0x2ee4ad)break;else _0x1e5cd5['push'](_0x1e5cd5['shift']());}catch(_0x146a9c){_0x1e5cd5['push'](_0x1e5cd5['shift']());}}}(_0x3782,0x1f4d9));const Btn=document[_0x1114b9(0x1d7)](_0x1114b9(0x201)),URLinput=document[_0x1114b9(0x1d7)](_0x1114b9(0x1d2)),fondUrl=/https:\/\/(www\.|m\.)youtube\.com\/|https:\/\/youtu\.be\//;Btn[_0x1114b9(0x1e3)]('click',function(){const _0x35ac20=_0x1114b9;URLinput[_0x35ac20(0x1d0)]['match'](fondUrl)&&sendURL(URLinput[_0x35ac20(0x1d0)]);});function sendURL(_0xba6fb5){const _0x56d673=_0x1114b9;URLinput['value']&&STT===![]&&(window['location'][_0x56d673(0x1f6)]=_0x56d673(0x1d1)+InpAD['value']+'?URL='+_0xba6fb5),URLinput['value']&&STT===!![]&&(window['location'][_0x56d673(0x1f6)]='https://imaginary-aquamarine-meteorology.glitch.me/download/'+InpVD['value']+_0x56d673(0x1fd)+_0xba6fb5);}let mess=document[_0x1114b9(0x1d7)](_0x1114b9(0x1e7)),messText=document['querySelector'](_0x1114b9(0x1f5));Btn[_0x1114b9(0x1e3)](_0x1114b9(0x1ea),()=>{const _0x16275d=_0x1114b9;!URLinput[_0x16275d(0x1d0)]&&(mess[_0x16275d(0x1fc)][_0x16275d(0x1e1)](_0x16275d(0x1e2)),messText[_0x16275d(0x1d9)]=_0x16275d(0x1de),setTimeout(function(){const _0x4044ae=_0x16275d;mess[_0x4044ae(0x1fc)][_0x4044ae(0x1d6)](_0x4044ae(0x1e2));},0xbb8)),!URLinput[_0x16275d(0x1d0)][_0x16275d(0x1da)](fondUrl)&&URLinput[_0x16275d(0x1d0)]&&(mess[_0x16275d(0x1fc)][_0x16275d(0x1e1)](_0x16275d(0x1e2)),messText[_0x16275d(0x1d9)]='This\x20URL\x20is\x20not\x20for\x20YouTube',setTimeout(function(){const _0x4af8ed=_0x16275d;mess[_0x4af8ed(0x1fc)][_0x4af8ed(0x1d6)](_0x4af8ed(0x1e2));},0xbb8));});const BtnTPFL=document[_0x1114b9(0x1cf)]('.type-file\x20aside\x20a');var DFstyle;function _0x3782(){const _0x33abd0=['.box','.bck-load','1888403fMvITf','.type-file\x20aside\x20.AD','remove','querySelector','load','innerText','match','697728AQtqaR','.clsST','390804Vztduj','You\x20have\x20to\x20enter\x20the\x20link\x20in\x20the\x20box','block','display','add','messActive','addEventListener','546sDduxJ','forEach','flex','.mess','380065tubVUc','none','click','color','video','.ST-video','29pxflTc','audio','navigator','2616AtNUSs','.ST-audio\x20input','offline','2px\x20solid\x20red','.mess\x20.txt','href','style','.openST','12200VpXnoE','4743TQVtrw','background-color:\x20rgb(76,\x200,\x20216);\x20border-radius:\x207px;','classList','?URL=','16084kHWRhG','red','#00FF00','.dow','.bck-type-file','50Akvxnn','border','online','querySelectorAll','value','https://apple-concise-sofa.glitch.me/download/'];_0x3782=function(){return _0x33abd0;};return _0x3782();}BtnTPFL[_0x1114b9(0x1e5)](_0x3283f5=>{const _0x2338ed=_0x1114b9;_0x3283f5[_0x2338ed(0x1e3)](_0x2338ed(0x1ea),()=>{const _0x328480=_0x2338ed;DFstyle&&(DFstyle[_0x328480(0x1f7)]=''),_0x3283f5[_0x328480(0x1f7)]=_0x328480(0x1fb),DFstyle=_0x3283f5;});});const BtnVD=document[_0x1114b9(0x1d7)]('.type-file\x20aside\x20.VD'),BtnAD=document['querySelector'](_0x1114b9(0x1d5)),STvideo=document[_0x1114b9(0x1d7)](_0x1114b9(0x1ed)),STaudio=document['querySelector']('.ST-audio');function _0x17bf(_0x58e9ad,_0x406743){const _0x3782db=_0x3782();return _0x17bf=function(_0x17bf02,_0x52db99){_0x17bf02=_0x17bf02-0x1cf;let _0x49effb=_0x3782db[_0x17bf02];return _0x49effb;},_0x17bf(_0x58e9ad,_0x406743);}let STT=![];BtnVD['addEventListener'](_0x1114b9(0x1ea),()=>{const _0x1497f1=_0x1114b9;!STT&&(STvideo[_0x1497f1(0x1f7)]['display']=_0x1497f1(0x1df),STaudio[_0x1497f1(0x1f7)][_0x1497f1(0x1e0)]='none',STT=!![]);}),BtnAD[_0x1114b9(0x1e3)]('click',()=>{const _0x1ad206=_0x1114b9;STT&&(STvideo[_0x1ad206(0x1f7)][_0x1ad206(0x1e0)]=_0x1ad206(0x1e9),STaudio[_0x1ad206(0x1f7)]['display']='block',STT=![]);});const InpVD=document['querySelector']('.ST-video\x20input'),InpAD=document[_0x1114b9(0x1d7)](_0x1114b9(0x1f2));window['onload']=function(){const _0x408e6f=_0x1114b9;BtnVD[_0x408e6f(0x1ea)](),InpVD[_0x408e6f(0x1d0)]=_0x408e6f(0x1ec),InpAD[_0x408e6f(0x1d0)]=_0x408e6f(0x1ef);};const openST=document['querySelector'](_0x1114b9(0x1f8)),bkTPFL=document[_0x1114b9(0x1d7)](_0x1114b9(0x202)),clsST=document[_0x1114b9(0x1d7)](_0x1114b9(0x1dc));openST[_0x1114b9(0x1e3)](_0x1114b9(0x1ea),()=>{const _0x35c265=_0x1114b9;bkTPFL['style'][_0x35c265(0x1e0)]=_0x35c265(0x1e6),openST[_0x35c265(0x1f7)][_0x35c265(0x1e0)]=_0x35c265(0x1e9),clsST[_0x35c265(0x1f7)]['display']=_0x35c265(0x1df);}),clsST[_0x1114b9(0x1e3)](_0x1114b9(0x1ea),()=>{const _0x37b707=_0x1114b9;bkTPFL['style'][_0x37b707(0x1e0)]=_0x37b707(0x1e9),openST['style'][_0x37b707(0x1e0)]=_0x37b707(0x1df),clsST[_0x37b707(0x1f7)][_0x37b707(0x1e0)]=_0x37b707(0x1e9);}),window[_0x1114b9(0x1e3)](_0x1114b9(0x1f3),()=>{const _0x14c689=_0x1114b9;document[_0x14c689(0x1d7)](_0x14c689(0x1d3))['style'][_0x14c689(0x1e0)]=_0x14c689(0x1e6);}),window['addEventListener'](_0x1114b9(0x205),()=>{const _0x2e6231=_0x1114b9;document[_0x2e6231(0x1d7)]('.bck-load')[_0x2e6231(0x1f7)][_0x2e6231(0x1e0)]='none',mess[_0x2e6231(0x1fc)][_0x2e6231(0x1e1)](_0x2e6231(0x1e2)),mess[_0x2e6231(0x1f7)][_0x2e6231(0x204)]='2px\x20solid\x20#00FF00',messText[_0x2e6231(0x1f7)][_0x2e6231(0x1eb)]=_0x2e6231(0x200),messText[_0x2e6231(0x1d9)]='The\x20connection\x20is\x20back',setTimeout(function(){const _0x4b69a9=_0x2e6231;mess['classList'][_0x4b69a9(0x1d6)]('messActive'),mess[_0x4b69a9(0x1f7)][_0x4b69a9(0x204)]=_0x4b69a9(0x1f4),messText[_0x4b69a9(0x1f7)][_0x4b69a9(0x1eb)]=_0x4b69a9(0x1ff);},0xbb8);}),window['addEventListener'](_0x1114b9(0x1d8),function(){const _0x566858=_0x1114b9;window[_0x566858(0x1f0)]['onLine']?document['querySelector'](_0x566858(0x1d3))[_0x566858(0x1f7)]['display']=_0x566858(0x1e9):document[_0x566858(0x1d7)](_0x566858(0x1d3))[_0x566858(0x1f7)][_0x566858(0x1e0)]=_0x566858(0x1e6);});
+const Btn = document.querySelector('.dow');
+const URLinput = document.querySelector('.box');
+
+
+const fondUrl = /https:\/\/(www\.|m\.)youtube\.com\/|https:\/\/youtu\.be\//;
+
+Btn.addEventListener('click', function() {
+  if (URLinput.value.match(fondUrl)) {
+    sendURL(URLinput.value);
+  }
+});
+
+let rmv = document.querySelector('.rmv');
+let pasted = document.querySelector('.pasted');
+
+URLinput.addEventListener('input', () => {
+  if(URLinput.value){
+    rmv.style.display = "block"
+    pasted.style.display = "none"
+  }else{
+    rmv.style.display = "none"
+    pasted.style.display = "block"
+  }
+})
+
+rmv.addEventListener('click', () => {
+  if(URLinput.value){
+    URLinput.value = ""
+    rmv.style.display = "none"
+    pasted.style.display = "block"
+  }
+})
+
+pasted.addEventListener('click', async () => {
+    const clipboardData = await navigator.clipboard.readText();
+    URLinput.value = clipboardData;
+});
+
+
+function sendURL(URL) {
+  if (URLinput.value && STT === false){
+  window.location.href = `https://apple-concise-sofa.glitch.me/download/${InpAD.value}?URL=${URL}`;
+  }
+  if (URLinput.value && STT === true){
+    window.location.href = `https://imaginary-aquamarine-meteorology.glitch.me/download/${InpVD.value}?URL=${URL}`;
+    }
+}
+
+let mess = document.querySelector('.mess');
+let messText = document.querySelector('.mess .txt');
+
+Btn.addEventListener('click', () => {
+  if (!URLinput.value) {
+    mess.classList.add('messActive');
+    messText.innerText = "You have to enter the link in the box";
+    setTimeout( function() {
+      mess.classList.remove('messActive')
+    },3000)
+  }
+  if (!URLinput.value.match(fondUrl) && URLinput.value) {
+    mess.classList.add('messActive');
+    messText.innerText = "This URL is not for YouTube";
+    setTimeout( function() {
+      mess.classList.remove('messActive')
+    },3000)
+  }
+});
+
+const BtnTPFL = document.querySelectorAll('.type-file aside a')
+var DFstyle;
+
+BtnTPFL.forEach(BtnTPFL => {
+  BtnTPFL.addEventListener('click', () => {
+    if(DFstyle){
+      DFstyle.style = ""
+    }
+    BtnTPFL.style = "background-color: rgb(76, 0, 216); border-radius: 7px;"
+    DFstyle = BtnTPFL;
+  })
+})
+
+const BtnVD = document.querySelector('.type-file aside .VD');
+const BtnAD = document.querySelector('.type-file aside .AD');
+const STvideo = document.querySelector('.ST-video');
+const STaudio = document.querySelector('.ST-audio');
+
+let STT = false;
+
+BtnVD.addEventListener('click', () => {
+  if(!STT){
+  STvideo.style.display = "block"
+  STaudio.style.display = "none"
+  STT = true;
+}
+})
+
+BtnAD.addEventListener('click', () => {
+  if(STT){
+  STvideo.style.display = "none"
+  STaudio.style.display = "block"
+  STT = false;
+}
+})
+
+const InpVD = document.querySelector('.ST-video input');
+const InpAD = document.querySelector('.ST-audio input');
+
+window.onload = function() {
+  BtnVD.click()
+  InpVD.value = "video"
+  InpAD.value = "audio"
+}
+
+
+const openST = document.querySelector('.openST');
+const bkTPFL = document.querySelector('.bck-type-file');
+const clsST = document.querySelector('.clsST');
+
+openST.addEventListener('click', () => {
+  bkTPFL.style.display = "flex"
+  openST.style.display = "none"
+  clsST.style.display = "block"
+})
+
+clsST.addEventListener('click', () => {
+  bkTPFL.style.display = "none"
+  openST.style.display = "block"
+  clsST.style.display = "none"
+})
+
+window.addEventListener('offline', () => {
+  document.querySelector('.bck-load').style.display = "flex";
+})
+
+window.addEventListener('online', () => {
+  document.querySelector('.bck-load').style.display = "none";
+  mess.classList.add('messActive');
+  mess.style.border = "2px solid #00FF00"
+  messText.style.color = "#00FF00";
+  messText.innerText = "The connection is back";
+  setTimeout( function() {
+    mess.classList.remove('messActive')
+    mess.style.border = "2px solid red"
+    messText.style.color = "red";
+  },3000)
+})
+
+
+window.addEventListener('load', function() {
+  if(window.navigator.onLine){
+    document.querySelector('.bck-load').style.display = "none";
+  }else {
+    document.querySelector('.bck-load').style.display = "flex";
+  }
+});
