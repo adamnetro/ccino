@@ -29,7 +29,7 @@
 }
 
 body {
-    background-color: #0d0f14;
+    background-color: #090a0d;
 }
 
 /*-------------------------------------------------------------------------*/
@@ -264,7 +264,8 @@ header {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:linear-gradient(rgba(0,0,0,.3),rgb(0,0,0,.3)), url(images/electronic.jpg);
+    background:linear-gradient(rgba(0,0,0,.5),rgb(0,0,0,.5)), url(images/electronic.jpg);
+    background-size: cover;
     background-attachment: fixed;
 
 }
@@ -297,7 +298,6 @@ header {
     color: rgb(136, 72, 255);
 }
 
-
 .navigation .clsST{
     display: none;
 }
@@ -324,9 +324,14 @@ header {
     border-radius: 60px;
 }
 
-.dow{
+.GR-BTN{
+    display: flex;
+}
+
+button{
     color: rgb(83, 83, 83);
     background-color: rgb(32, 32, 32);
+    margin-left: 12px;
     font-size: 1.5em;
     width: 2.9em;
     height: 2em;
@@ -339,16 +344,40 @@ header {
     user-select: none;
 }
 
-.dow:hover{
+button:hover{
     color: aliceblue;
     background-color: rgb(76, 0, 216);
-    transform: scale(1.1);
+    transform: scale(0.95);
 }
 
-.dow:active{
+button:active{
     color: rgb(76, 0, 216);
     background-color: rgb(32, 32, 32);
     border: 2px solid rgb(76, 0, 216);
+}
+
+.pasted:hover{
+    background-color: #00b300;
+}
+
+.pasted:active{
+    color: #00b300;
+    background-color: rgb(32, 32, 32);
+    border: 2px solid #00b300;
+}
+
+.rmv{
+    display: none;
+}
+
+.rmv:hover{
+    background-color: rgb(223, 0, 0);
+}
+
+.rmv:active{
+    color: rgb(223, 0, 0);
+    background-color: rgb(32, 32, 32);
+    border: 2px solid rgb(223, 0, 0);
 }
 
 
@@ -513,7 +542,11 @@ header {
         border:2px solid rgb(76, 0, 216);
     }
 
-    .dow{
+    .GR-BTN{
+        display: grid;
+    }
+
+    button{
         margin-top: 20px;
         transition: 0s;
         width: 100%;
@@ -523,14 +556,14 @@ header {
     }
 
 
-    .dow:hover{
+    button:hover{
         transform: none;
         color: white;
         background-color: rgb(32, 32, 32);
         border: 2px solid white;
     }
 
-    .dow:active{
+    button:active{
         background-color: rgb(76, 0, 216);
         border: rgb(76, 0, 216);
         color: white;
