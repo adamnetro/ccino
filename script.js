@@ -1,1 +1,157 @@
-const _0xf9c8d9=_0x105c;(function(_0x2abda7,_0x428b3a){const _0x67cd54=_0x105c,_0x17f271=_0x2abda7();while(!![]){try{const _0x57a89e=-parseInt(_0x67cd54(0x1b7))/0x1+parseInt(_0x67cd54(0x1d3))/0x2+parseInt(_0x67cd54(0x1b9))/0x3*(parseInt(_0x67cd54(0x1d4))/0x4)+parseInt(_0x67cd54(0x1cf))/0x5*(-parseInt(_0x67cd54(0x1bf))/0x6)+-parseInt(_0x67cd54(0x1a9))/0x7+parseInt(_0x67cd54(0x1b5))/0x8+-parseInt(_0x67cd54(0x1da))/0x9;if(_0x57a89e===_0x428b3a)break;else _0x17f271['push'](_0x17f271['shift']());}catch(_0x3fc61c){_0x17f271['push'](_0x17f271['shift']());}}}(_0x376d,0x267ab));const Btn=document[_0xf9c8d9(0x1a7)](_0xf9c8d9(0x1a8)),URLinput=document[_0xf9c8d9(0x1a7)](_0xf9c8d9(0x1b6)),fondUrl=/https:\/\/(www\.|m\.)youtube\.com\/|https:\/\/youtu\.be\//;Btn[_0xf9c8d9(0x1a4)](_0xf9c8d9(0x1c8),function(){const _0x2bee8c=_0xf9c8d9;URLinput[_0x2bee8c(0x1ce)][_0x2bee8c(0x1a5)](fondUrl)&&sendURL(URLinput[_0x2bee8c(0x1ce)]);});let rmv=document[_0xf9c8d9(0x1a7)](_0xf9c8d9(0x1d9)),pasted=document['querySelector']('.pasted');URLinput[_0xf9c8d9(0x1a4)]('input',()=>{const _0x47d638=_0xf9c8d9;URLinput['value']?(rmv['style'][_0x47d638(0x1bd)]='block',pasted['style']['display']=_0x47d638(0x1cb)):(rmv[_0x47d638(0x1b4)]['display']='none',pasted['style'][_0x47d638(0x1bd)]='block');}),rmv[_0xf9c8d9(0x1a4)]('click',()=>{const _0x34e37b=_0xf9c8d9;URLinput[_0x34e37b(0x1ce)]&&(URLinput[_0x34e37b(0x1ce)]='',rmv[_0x34e37b(0x1b4)][_0x34e37b(0x1bd)]=_0x34e37b(0x1cb),pasted[_0x34e37b(0x1b4)][_0x34e37b(0x1bd)]=_0x34e37b(0x1c6));}),pasted[_0xf9c8d9(0x1a4)](_0xf9c8d9(0x1c8),async()=>{const _0x16e2fb=_0xf9c8d9,_0x3b3a8f=await navigator[_0x16e2fb(0x1ad)][_0x16e2fb(0x1d5)]();URLinput[_0x16e2fb(0x1ce)]=_0x3b3a8f;});function sendURL(_0x1f6fd9){const _0x28ef39=_0xf9c8d9;URLinput['value']&&STT===![]&&(window[_0x28ef39(0x1b1)]['href']='https://apple-concise-sofa.glitch.me/download/'+InpAD['value']+_0x28ef39(0x1ba)+_0x1f6fd9),URLinput[_0x28ef39(0x1ce)]&&STT===!![]&&(window['location']['href']=_0x28ef39(0x1b3)+InpVD['value']+_0x28ef39(0x1ba)+_0x1f6fd9);}let mess=document[_0xf9c8d9(0x1a7)](_0xf9c8d9(0x1bb)),messText=document['querySelector'](_0xf9c8d9(0x1c0));Btn[_0xf9c8d9(0x1a4)](_0xf9c8d9(0x1c8),()=>{const _0x189ab2=_0xf9c8d9;!URLinput[_0x189ab2(0x1ce)]&&(mess[_0x189ab2(0x1ab)][_0x189ab2(0x1a6)](_0x189ab2(0x1d0)),messText[_0x189ab2(0x1b8)]='You\x20have\x20to\x20enter\x20the\x20link\x20in\x20the\x20box',setTimeout(function(){const _0xf8cb85=_0x189ab2;mess[_0xf8cb85(0x1ab)][_0xf8cb85(0x1ae)]('messActive');},0xbb8)),!URLinput[_0x189ab2(0x1ce)][_0x189ab2(0x1a5)](fondUrl)&&URLinput[_0x189ab2(0x1ce)]&&(mess[_0x189ab2(0x1ab)]['add'](_0x189ab2(0x1d0)),messText[_0x189ab2(0x1b8)]=_0x189ab2(0x1a1),setTimeout(function(){const _0x46b1df=_0x189ab2;mess['classList'][_0x46b1df(0x1ae)](_0x46b1df(0x1d0));},0xbb8));});const BtnTPFL=document[_0xf9c8d9(0x1b2)]('.type-file\x20aside\x20a');var DFstyle;BtnTPFL[_0xf9c8d9(0x1aa)](_0x5d569a=>{_0x5d569a['addEventListener']('click',()=>{const _0x590a10=_0x105c;DFstyle&&(DFstyle[_0x590a10(0x1b4)]=''),_0x5d569a[_0x590a10(0x1b4)]=_0x590a10(0x1d7),DFstyle=_0x5d569a;});});const BtnVD=document[_0xf9c8d9(0x1a7)](_0xf9c8d9(0x1d1)),BtnAD=document['querySelector'](_0xf9c8d9(0x1c7)),STvideo=document['querySelector']('.ST-video'),STaudio=document['querySelector'](_0xf9c8d9(0x1b0));let STT=![];BtnVD[_0xf9c8d9(0x1a4)]('click',()=>{const _0x17f30a=_0xf9c8d9;!STT&&(STvideo[_0x17f30a(0x1b4)][_0x17f30a(0x1bd)]=_0x17f30a(0x1c6),STaudio[_0x17f30a(0x1b4)]['display']=_0x17f30a(0x1cb),STT=!![]);}),BtnAD['addEventListener'](_0xf9c8d9(0x1c8),()=>{const _0x306a57=_0xf9c8d9;STT&&(STvideo[_0x306a57(0x1b4)][_0x306a57(0x1bd)]=_0x306a57(0x1cb),STaudio[_0x306a57(0x1b4)][_0x306a57(0x1bd)]='block',STT=![]);});const InpVD=document[_0xf9c8d9(0x1a7)]('.ST-video\x20input'),InpAD=document[_0xf9c8d9(0x1a7)](_0xf9c8d9(0x1cc));function _0x105c(_0x33667f,_0x57de46){const _0x376d24=_0x376d();return _0x105c=function(_0x105c58,_0x599b25){_0x105c58=_0x105c58-0x1a1;let _0x35dcc4=_0x376d24[_0x105c58];return _0x35dcc4;},_0x105c(_0x33667f,_0x57de46);}window[_0xf9c8d9(0x1ac)]=function(){const _0x55dfde=_0xf9c8d9;BtnVD['click'](),InpVD[_0x55dfde(0x1ce)]=_0x55dfde(0x1be),InpAD[_0x55dfde(0x1ce)]=_0x55dfde(0x1a2);};function _0x376d(){const _0x315c0f=['offline','background-color:\x20rgb(76,\x200,\x20216);\x20border-radius:\x207px;','onLine','.rmv','1562454XtEZTR','This\x20URL\x20is\x20not\x20for\x20YouTube','audio','border','addEventListener','match','add','querySelector','.dow','528003wgsPCF','forEach','classList','onload','clipboard','remove','2px\x20solid\x20red','.ST-audio','location','querySelectorAll','https://imaginary-aquamarine-meteorology.glitch.me/download/','style','304328twZZDe','.box','39207ODpmqh','innerText','37824YHogYg','?URL=','.mess','The\x20connection\x20is\x20back','display','video','7284byYIos','.mess\x20.txt','2px\x20solid\x20#00FF00','.openST','red','color','.bck-load','block','.type-file\x20aside\x20.AD','click','flex','.bck-type-file','none','.ST-audio\x20input','.clsST','value','5OwiFnJ','messActive','.type-file\x20aside\x20.VD','#00FF00','338948ALKdTm','76OWnBVr','readText'];_0x376d=function(){return _0x315c0f;};return _0x376d();}const openST=document['querySelector'](_0xf9c8d9(0x1c2)),bkTPFL=document[_0xf9c8d9(0x1a7)](_0xf9c8d9(0x1ca)),clsST=document[_0xf9c8d9(0x1a7)](_0xf9c8d9(0x1cd));openST[_0xf9c8d9(0x1a4)](_0xf9c8d9(0x1c8),()=>{const _0x2ed89c=_0xf9c8d9;bkTPFL['style']['display']=_0x2ed89c(0x1c9),openST['style'][_0x2ed89c(0x1bd)]=_0x2ed89c(0x1cb),clsST[_0x2ed89c(0x1b4)][_0x2ed89c(0x1bd)]=_0x2ed89c(0x1c6);}),clsST['addEventListener'](_0xf9c8d9(0x1c8),()=>{const _0xf95480=_0xf9c8d9;bkTPFL[_0xf95480(0x1b4)][_0xf95480(0x1bd)]=_0xf95480(0x1cb),openST[_0xf95480(0x1b4)][_0xf95480(0x1bd)]=_0xf95480(0x1c6),clsST['style'][_0xf95480(0x1bd)]='none';}),window[_0xf9c8d9(0x1a4)](_0xf9c8d9(0x1d6),()=>{const _0x2ac765=_0xf9c8d9;document[_0x2ac765(0x1a7)](_0x2ac765(0x1c5))[_0x2ac765(0x1b4)][_0x2ac765(0x1bd)]='flex';}),window[_0xf9c8d9(0x1a4)]('online',()=>{const _0x5b471d=_0xf9c8d9;document[_0x5b471d(0x1a7)](_0x5b471d(0x1c5))['style']['display']=_0x5b471d(0x1cb),mess[_0x5b471d(0x1ab)][_0x5b471d(0x1a6)](_0x5b471d(0x1d0)),mess[_0x5b471d(0x1b4)][_0x5b471d(0x1a3)]=_0x5b471d(0x1c1),messText['style'][_0x5b471d(0x1c4)]=_0x5b471d(0x1d2),messText['innerText']=_0x5b471d(0x1bc),setTimeout(function(){const _0x4161b7=_0x5b471d;mess[_0x4161b7(0x1ab)][_0x4161b7(0x1ae)](_0x4161b7(0x1d0)),mess['style'][_0x4161b7(0x1a3)]=_0x4161b7(0x1af),messText[_0x4161b7(0x1b4)][_0x4161b7(0x1c4)]=_0x4161b7(0x1c3);},0xbb8);}),window['addEventListener']('load',function(){const _0x4a9735=_0xf9c8d9;window['navigator'][_0x4a9735(0x1d8)]?document[_0x4a9735(0x1a7)](_0x4a9735(0x1c5))[_0x4a9735(0x1b4)][_0x4a9735(0x1bd)]=_0x4a9735(0x1cb):document[_0x4a9735(0x1a7)](_0x4a9735(0x1c5))[_0x4a9735(0x1b4)][_0x4a9735(0x1bd)]=_0x4a9735(0x1c9);});
+const Btn = document.querySelector('.dow');
+const URLinput = document.querySelector('.box');
+
+
+const fondUrl = /https:\/\/(www\.|m\.)youtube\.com\/|https:\/\/youtu\.be\//;
+
+Btn.addEventListener('click', function() {
+  if (URLinput.value.match(fondUrl)) {
+    sendURL(URLinput.value);
+  }
+});
+
+let rmv = document.querySelector('.rmv');
+let pasted = document.querySelector('.pasted');
+
+URLinput.addEventListener('input', () => {
+  if(URLinput.value){
+    rmv.style.display = "block"
+    pasted.style.display = "none"
+  }else{
+    rmv.style.display = "none"
+    pasted.style.display = "block"
+  }
+})
+
+rmv.addEventListener('click', () => {
+  if(URLinput.value){
+    URLinput.value = ""
+    rmv.style.display = "none"
+    pasted.style.display = "block"
+  }
+})
+
+pasted.addEventListener('click', async () => {
+    const clipboardData = await navigator.clipboard.readText();
+    URLinput.value = clipboardData;
+    rmv.style.display = "block"
+    pasted.style.display = "none"
+});
+
+
+function sendURL(URL) {
+  if (URLinput.value && STT === false){
+  window.location.href = `http://localhost:4000/download/${InpAD.value}?URL=${URL}`;
+  }
+  if (URLinput.value && STT === true){
+    window.location.href = `http://localhost:3000/download/${InpVD.value}?URL=${URL}`;
+    }
+}
+
+let mess = document.querySelector('.mess');
+let messText = document.querySelector('.mess .txt');
+
+Btn.addEventListener('click', () => {
+  if (!URLinput.value) {
+    mess.classList.add('messActive');
+    messText.innerText = "You have to enter the link in the box";
+    setTimeout( function() {
+      mess.classList.remove('messActive')
+    },3000)
+  }
+  if (!URLinput.value.match(fondUrl) && URLinput.value) {
+    mess.classList.add('messActive');
+    messText.innerText = "This URL is not for YouTube";
+    setTimeout( function() {
+      mess.classList.remove('messActive')
+    },3000)
+  }
+});
+
+const BtnTPFL = document.querySelectorAll('.type-file aside a')
+var DFstyle;
+
+BtnTPFL.forEach(BtnTPFL => {
+  BtnTPFL.addEventListener('click', () => {
+    if(DFstyle){
+      DFstyle.style = ""
+    }
+    BtnTPFL.style = "background-color: rgb(76, 0, 216); border-radius: 7px;"
+    DFstyle = BtnTPFL;
+  })
+})
+
+const BtnVD = document.querySelector('.type-file aside .VD');
+const BtnAD = document.querySelector('.type-file aside .AD');
+const STvideo = document.querySelector('.ST-video');
+const STaudio = document.querySelector('.ST-audio');
+
+let STT = false;
+
+BtnVD.addEventListener('click', () => {
+  if(!STT){
+  STvideo.style.display = "block"
+  STaudio.style.display = "none"
+  STT = true;
+}
+})
+
+BtnAD.addEventListener('click', () => {
+  if(STT){
+  STvideo.style.display = "none"
+  STaudio.style.display = "block"
+  STT = false;
+}
+})
+
+const InpVD = document.querySelector('.ST-video input');
+const InpAD = document.querySelector('.ST-audio input');
+
+window.onload = function() {
+  BtnVD.click()
+  InpVD.value = "video"
+  InpAD.value = "audio"
+}
+
+
+const openST = document.querySelector('.openST');
+const bkTPFL = document.querySelector('.bck-type-file');
+const clsST = document.querySelector('.clsST');
+
+openST.addEventListener('click', () => {
+  bkTPFL.style.display = "flex"
+  openST.style.display = "none"
+  clsST.style.display = "block"
+})
+
+clsST.addEventListener('click', () => {
+  bkTPFL.style.display = "none"
+  openST.style.display = "block"
+  clsST.style.display = "none"
+})
+
+window.addEventListener('offline', () => {
+  document.querySelector('.bck-load').style.display = "flex";
+})
+
+window.addEventListener('online', () => {
+  document.querySelector('.bck-load').style.display = "none";
+  mess.classList.add('messActive');
+  mess.style.border = "2px solid #00FF00"
+  messText.style.color = "#00FF00";
+  messText.innerText = "The connection is back";
+  setTimeout( function() {
+    mess.classList.remove('messActive')
+    mess.style.border = "2px solid red"
+    messText.style.color = "red";
+  },3000)
+})
+
+
+window.addEventListener('load', function() {
+  if(window.navigator.onLine){
+    document.querySelector('.bck-load').style.display = "none";
+  }else {
+    document.querySelector('.bck-load').style.display = "flex";
+  }
+});
