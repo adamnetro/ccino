@@ -137,12 +137,12 @@ window.addEventListener('offline', () => {
 window.addEventListener('online', () => {
   document.querySelector('.bck-load').style.display = "none";
   mess.classList.add('messActive');
-  mess.style.border = "2px solid #00FF00"
+  mess.style.border = "1px solid #00FF00"
   messText.style.color = "#00FF00";
   messText.innerText = "The connection is back";
   setTimeout( function() {
     mess.classList.remove('messActive')
-    mess.style.border = "2px solid red"
+    mess.style.border = "1px solid red"
     messText.style.color = "red";
   },3000)
 })
