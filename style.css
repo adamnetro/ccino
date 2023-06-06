@@ -129,7 +129,7 @@ body {
     display: flex;
     justify-content: space-between;
     border-radius: 15px;
-    border: 2px solid red;
+    border: 1px solid red;
     top: 10%;
     left: -70%;
     transform: skewX(-25deg);
@@ -141,6 +141,7 @@ body {
 
 .mess a{
     font-size: 2em;
+    font-weight: 200;
     transform: skewX(25deg);
 }
 
