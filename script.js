@@ -32,19 +32,36 @@ rmv.addEventListener('click', () => {
 })
 
 pasted.addEventListener('click', async () => {
-    const clipboardData = await navigator.clipboard.readText();
-    URLinput.value = clipboardData;
-    rmv.style.display = "block"
-    pasted.style.display = "none"
+  const ho9o9las9 = await navigator.clipboard.readText();
+  
+  if (ho9o9las9.trim().match(fondUrl)) {
+    URLinput.value = ho9o9las9;
+    rmv.style.display = "block";
+    pasted.style.display = "none";
+  }else{
+    mess.classList.add('messActive');
+    messText.innerText = "You need to copy URL of youtube";
+    setTimeout( function() {
+      mess.classList.remove('messActive')
+    },3000)
+  }
 });
 
 
 function sendURL(URL) {
   if (URLinput.value && STT === false){
   window.location.href = `https://apple-concise-sofa.glitch.me/download/${InpAD.value}?URL=${URL}`;
+        document.querySelector('.bck-load').style.display = "flex";
+    setTimeout( function() {
+      document.querySelector('.bck-load').style.display = "none";
+    },3000)
   }
   if (URLinput.value && STT === true){
     window.location.href = `https://imaginary-aquamarine-meteorology.glitch.me/download/${InpVD.value}?URL=${URL}`;
+        document.querySelector('.bck-load').style.display = "flex";
+    setTimeout( function() {
+      document.querySelector('.bck-load').style.display = "none";
+    },3000)
     }
 }
 
