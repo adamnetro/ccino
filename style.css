@@ -8,6 +8,18 @@
     scroll-behavior: smooth;
 }
 
+.soon{
+    color: rgba(32, 32, 32);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+}
+
+
+
 ::selection{
     background-color: rgba(107, 27, 255, 0.575);
     color: rgb(224, 224, 224);
@@ -166,7 +178,7 @@ body {
     color: white;
     display: flex;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 0.7vw;
 }
 
 .tafri9{
@@ -184,26 +196,26 @@ hr{
 }
 .type-file aside{
     display: grid;
-    font-size: 2em;
+    font-size: 1.67vw;
     cursor: pointer;
     background-color: rgb(20, 20, 20);
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 0.7vw;
     width: 40%;
-    height: 4.5em;
+    height: 100%;
     text-align: center;
     user-select: none;
 }
 
 .type-file aside a:hover{
     background-color: rgba(32, 32, 32);
-    border-radius: 7px;
+    border-radius: 0.2vw;
 }
 
 .ST-file{
     background-color: rgb(20, 20, 20);
     margin-left: 10px;
-    border-radius: 15px;
+    border-radius: 0.7vw;
     padding: 10px;
     width: 70vh;
     height: 70vh;
@@ -211,7 +223,7 @@ hr{
 
 .ST-file h1{
     color: white;
-    font-size: 2em;
+    font-size: 1.67vw;
     font-weight: 200;
 }
 
@@ -221,21 +233,21 @@ hr{
     border: none;
     border-bottom: 2px solid rgb(76, 0, 216);
     outline: none;
-    font-size: 1.5em;
+    font-size: 1.25vw;
     margin-top: 10px;
 }
 
 .ST-video {
     background-color: rgb(32, 32, 32);
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 0.7vw;
 }
 
 .ST-audio{
     display: none;
     background-color: rgb(32, 32, 32);
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 0.7vw;
 }
 
 
@@ -386,10 +398,10 @@ button:active{
 
 
 .cards{
-    padding: 40px;
+    padding: 4.3vh;
     background: url(images/photo6.jpg);
     color: rgb(255, 255, 255);
-    font-size: 10px;
+    font-size: 0.52vw;
     text-align: center;
 
 }
