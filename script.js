@@ -128,6 +128,11 @@ window.onload = function() {
   BtnVD.click()
   InpVD.value = "video"
   InpAD.value = "audio"
+
+  if(URLinput.value){
+    rmv.style.display = "block"
+    pasted.style.display = "none"
+  }
 }
 
 
