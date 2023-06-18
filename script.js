@@ -33,7 +33,7 @@ rmv.addEventListener('click', () => {
 
 pasted.addEventListener('click', async () => {
   const ho9o9las9 = await navigator.clipboard.readText();
-  
+
   if (ho9o9las9.trim().match(fondUrl)) {
     URLinput.value = ho9o9las9;
     rmv.style.display = "block";
@@ -48,21 +48,23 @@ pasted.addEventListener('click', async () => {
 });
 
 
+
+
 function sendURL(URL) {
   if (URLinput.value && STT === false){
-  window.location.href = `https://apple-concise-sofa.glitch.me/download/${InpAD.value}?URL=${URL}`;
-        document.querySelector('.bck-load').style.display = "flex";
-    setTimeout( function() {
-      document.querySelector('.bck-load').style.display = "none";
-    },3000)
-  }
+  window.location.href = `http://localhost:4000/download/${InpAD.value}?URL=${URL}`;
+  document.querySelector('.bck-load').style.display = "flex";
+  setTimeout( function() {
+    document.querySelector('.bck-load').style.display = "none";
+  },3000)
+}
   if (URLinput.value && STT === true){
-    window.location.href = `https://imaginary-aquamarine-meteorology.glitch.me/download/${InpVD.value}?URL=${URL}`;
-        document.querySelector('.bck-load').style.display = "flex";
+    window.location.href = `http://localhost:3000/download/${InpVD.value}?URL=${URL}`;
+    document.querySelector('.bck-load').style.display = "flex";
     setTimeout( function() {
       document.querySelector('.bck-load').style.display = "none";
-    },3000)
-    }
+    },3000) 
+}
 }
 
 let mess = document.querySelector('.mess');
@@ -126,8 +128,6 @@ const InpAD = document.querySelector('.ST-audio input');
 
 window.onload = function() {
   BtnVD.click()
-  InpVD.value = "video"
-  InpAD.value = "audio"
 
   if(URLinput.value){
     rmv.style.display = "block"
